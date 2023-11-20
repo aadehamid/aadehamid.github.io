@@ -16,6 +16,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #f8333c;
+    --clr-ash: #8C8E9F;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -121,7 +122,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent);
+    background: var(--clr-ash);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
@@ -225,7 +226,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background: var(--clr-ash);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -257,6 +258,9 @@ header {
 
 .section__subtitle--intro {
     display: inline-block;
+}
+p.section__subtitle--intro {
+    color: white;
 }
 
 @media (min-width: 600px) {
@@ -345,25 +349,28 @@ header {
     margin: 0 auto;
 }
 
+/*
 .about-me__img {
     box-shadow: var(--bs);
 }
-
+*/
 @media (min-width: 600px) {
     .about-me {
         display: grid;
-        grid-template-columns: 1fr 200px;
+        grid-template-columns: 1fr;
         grid-template-areas:
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-column-gap: 2em;
+            "title"
+            "subtitle"
+            "text";
+       /* grid-column-gap: 2em; */
     }
 
     .section__title--about {
         grid-area: title;
     }
 
+
+    /*
     .section__subtitle--about {
         grid-column: 1 / -1;
         grid-row: 2;
@@ -373,13 +380,18 @@ header {
         padding-left: 1em;
         padding-right: calc(200px + 4em);
     }
+    */
 
+    /*
     .about-me__img {
         grid-area: img;
         position: relative;
         z-index: 2;
     }
+    */
 }
+
+
 
 /* My Work */
 
