@@ -4,6 +4,7 @@ project:
 website:
   title: "Complexity Demystified"
   site-url: https://aadehamid.github.io/
+  description: " I am interested in the simple things that adds up to make the complex things."
   navbar:
     right:
       - about.qmd
@@ -11,6 +12,8 @@ website:
         href: https://github.com/aadehamid
       - icon: twitter
         href: https://twitter.com/adehamid
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme: cyborg

@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: hamid1.jpg
+image: hamid2.jpg
 about:
   template: jolla
   links:
@@ -16,4 +16,4 @@ about:
 
 ---
 
-About this blog
+Hi, I am Hamid Adesokan. I am interested in the simple things that make up the complex. On this blog site, I will dive into the world of technology, where I unravel the complexities of artificial intelligence, data engineering, data strategy, systems, and more for my understanding. 'Simple Threads in a Complex Web' offers a unique perspective, simplifying the intricate aspects of tech innovations. Join me to explore how the simplest ideas weave into the vast tapestry of technological advancements.
